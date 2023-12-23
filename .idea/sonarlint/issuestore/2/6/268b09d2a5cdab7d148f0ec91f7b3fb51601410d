@@ -1,0 +1,11 @@
+
+d
+java:S2095"BUse try-with-resources or close this "Page" in a "finally" clause.(¥ÚíËüÿÿÿÿ8û³ºÉ1
+G	java:S106"+Replace this use of System.out by a logger.(©‰…Ø8í¬»É1
+L	java:S106"+Replace this use of System.out by a logger.(ãÆÊ©ùÿÿÿÿ8‰Ñ¿É1
+c
+java:S1128"FRemove this unused import 'com.microsoft.playwright.options.AriaRole'.(àüø¦8ãçºÉ1
+V
+java:S1128"4Remove this unused import 'java.util.regex.Pattern'.(Ã•…Äúÿÿÿÿ8ãçºÉ1
+‚
+java:S1128	"`Remove this unused import 'com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat'.(é·ˆ•ÿÿÿÿÿ8äçºÉ1
