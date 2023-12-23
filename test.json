@@ -1,0 +1,79 @@
+{
+  "cookies": [
+    {
+      "name": "stel_web_auth",
+      "value": "https%3A%2F%2Fweb.telegram.org%2Fk%2F",
+      "domain": "t.me",
+      "path": "/",
+      "expires": 1734064455.034221,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "stel_web_auth",
+      "value": "https%3A%2F%2Fweb.telegram.org%2Fk%2F",
+      "domain": "telegram.me",
+      "path": "/",
+      "expires": 1734144534.05279,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://web.telegram.org",
+      "localStorage": [
+        {
+          "name": "dc2_auth_key",
+          "value": "\"59d5f39f7c47a8425897a2883d1a9c1ed2cac1679a22335576c89fafa89069746ad531c10585029a77899838b0201f60d27720f3123f264fb967e4bac613e79198513847065d8d9913f2697699273cd7209f0b96eb25b72a8da28013b900fbded18d7f6249626537abafb9da659d5176af22d6806218a0e3ca2c8ab26ce9d1a1706a183a7f8dbec7429e07bdc5596481fe2d123643b9fd02220ef07df45657fafdcd9a46d89d7ac0dfddab2144e5c665fa15feaf293eb7c3b1ff2896406faeed2f6a84f14eb210686fd117638af11d5db5342dd7c45a30b9f6d5feefbd51f2bebe26c30263f0cb9fd4e4f4cab9cc2e8d033d0866ca187d341fecb8161c86c577\""
+        },
+        {
+          "name": "dc1_server_salt",
+          "value": "\"4f6d067a3f6efca0\""
+        },
+        {
+          "name": "tgme_sync",
+          "value": "{\"canRedirect\":true,\"ts\":1703256238}"
+        },
+        {
+          "name": "dc2_server_salt",
+          "value": "\"c9c61ba8675f7eea\""
+        },
+        {
+          "name": "kz_version",
+          "value": "\"K\""
+        },
+        {
+          "name": "auth_key_fingerprint",
+          "value": "\"59d5f39f\""
+        },
+        {
+          "name": "dc1_auth_key",
+          "value": "\"9fdf6c06c75c3d744fefb1d72ab76ae8fd82170cf2df4f144b4a6d86331ed6dff0ccc2e048c565d5222cfd178b9d7e5ca9128cc326431dc5c66f2c5f0e1b9fa21ae91d79b223d07f26608d880b18e46fc85584d8f4caf48d0e28e3c5e69f377c887efe54adb5b0ed475823ee82391502debfeb64f4956b9adb4945931bfd42deb9868f4c5b14484acd7815e7d328eb4c64354cf0bfe4ab3580848078411682931eeefb99b1956e89207e9adb484d0918e53455e67017933b92642420036c53c9f095b710efb26fdde0b23597627f238a488815baacfa341549ffbf79b32192c12197a8228043d7164003274db4095cb1b0960fd181164dfbebf255be409f26f7\""
+        },
+        {
+          "name": "state_id",
+          "value": "3171807778"
+        },
+        {
+          "name": "k_build",
+          "value": "449"
+        },
+        {
+          "name": "user_auth",
+          "value": "{\"dcID\":2,\"date\":1703256237,\"id\":5825921837}"
+        },
+        {
+          "name": "xt_instance",
+          "value": "{\"id\":37387,\"idle\":true,\"time\":1703256263817}"
+        },
+        {
+          "name": "dc",
+          "value": "2"
+        }
+      ]
+    }
+  ]
+}
