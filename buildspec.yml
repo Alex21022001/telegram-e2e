@@ -4,18 +4,18 @@ phases:
   install:
     on-failure: ABORT
     commands:
-      - ./mvnw -version
-      - java -version
-      - afaa
-      - echo downloading AWS CLI
-      - curl "https://awscli.amazonaws.com/awscli-exe-linux-aarch64.zip" -o "awscliv2.zip"
-      - unzip awscliv2.zip
-      - ./aws/install
+#      - ./mvnw -version
+#      - java -version
+#      - afaa
+#      - echo downloading AWS CLI
+#      - curl "https://awscli.amazonaws.com/awscli-exe-linux-aarch64.zip" -o "awscliv2.zip"
+#      - unzip awscliv2.zip
+#      - ./aws/install
 
   build:
     on-failure: ABORT
     commands:
       - aws s3 cp s3://$AUTH_PATH auth.json
-#      - ./mvnw exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install --with-deps chromium"
+      - ./mvnw exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install --with-deps chromium"
       - ./mvnw test
 
