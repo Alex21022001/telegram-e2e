@@ -33,21 +33,21 @@ class AppTest {
 
     @Test
     void test() {
-        Locator leftColumn = page.locator("css=#column-left");
-        Locator chatList = leftColumn.locator("css=.chatlist-top > ul.chatlist");
+        Locator leftColumn = page.locator("#column-left");
+        Locator chatList = leftColumn.locator(".chatlist-top > ul.chatlist");
         Locator kiteChat =
             chatList.getByRole(AriaRole.LINK)
                 .filter(new Locator.FilterOptions()
-                    .setHas(page.locator("css=div.user-title",
+                    .setHas(page.locator("div.user-title",
                         new Page.LocatorOptions().setHasText("Kite.chat.new.bot"))));
 
         assertThat(kiteChat).hasCount(1);
         assertThat(kiteChat).isVisible();
         kiteChat.click();
 
-        Locator chat = page.locator("css=#column-center");
-        Locator input = chat.locator("css=div.input-message-input:not(.input-field-input-fake)");
-        Locator sendButton = chat.locator("css=button.send");
+        Locator chat = page.locator("#column-center");
+        Locator input = chat.locator("div.input-message-input:not(.input-field-input-fake)");
+        Locator sendButton = chat.locator("button.send");
         input.fill("hello");
         sendButton.click();
         page.waitForTimeout(500);
