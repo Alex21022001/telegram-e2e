@@ -4,7 +4,7 @@ phases:
   install:
     on-failure: ABORT
     commands:
-      - .\mvnw -version
+      - ./mvnw -version
       - java -version
       - afaa
       - echo downloading AWS CLI
