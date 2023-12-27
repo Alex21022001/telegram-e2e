@@ -8,6 +8,8 @@ target/
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
+.idea/misc.xml
+.idea/sonarlint/
 *.iws
 *.iml
 *.ipr
@@ -38,5 +40,4 @@ build/
 .DS_Store
 
 auth.json
-.idea/**
 .mvn/wrapper/maven-wrapper.jar
